@@ -1,4 +1,4 @@
-name: Publish af-docs via GitHub Pages
+name: Publish Analysis Facility MKDocs via GitHub Pages
 on:
   push:
     branches: [ main ]
