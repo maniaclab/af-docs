@@ -1,1 +1,1 @@
-# Analysis Facility documentation (af-docs)
+# Documentation for Analysis Facility (af-docs)
