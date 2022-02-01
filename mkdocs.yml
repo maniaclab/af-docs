@@ -4,10 +4,9 @@ theme:
   features:
     - instant
 nav:
-  - Home: "index.md"
+  - "Home": "index.md"
   - "Job submission": "job_submission.md"
-  - "Coffea Casa":
-      - "Basics": "coffeacasa.md"
-      - "ServiceX": "servicex.md"
+  - "Coffea Casa": "coffeacasa.md"
+  - "ServiceX": "servicex.md"
   - "ML platform": "ml_platform.md"
-  - XCache: "xcache.md"
+  - "XCache": "xcache.md"
