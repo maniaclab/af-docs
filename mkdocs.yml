@@ -9,5 +9,5 @@ nav:
   - "Coffea Casa":
       - "Basics": "coffeacasa.md"
       - "ServiceX": "servicex.md"
-  - "ML platform": "ml_platform.md"
+  - "JupyterLab": "ml_platform.md"
   - XCache: "xcache.md"
