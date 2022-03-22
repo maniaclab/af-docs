@@ -15,4 +15,4 @@ For software additions and upgrades please contact ivukotic@uchicago.edu.
 
 ## Selecting GPU memory
 
-Select 40,836 MB for an entire A100 GPU, select 4864 MB for a MIG Instance.
+Select 40,836 MB for an entire A100 GPU. Select 4864 MB for a MIG instance.
