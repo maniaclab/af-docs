@@ -35,7 +35,7 @@ The UChicago analysis facility has three filesystems that you should be aware of
 | Filesystem | Quota  | Path        | Backup         | Notes                                                  |
 | ---------- | ------ | ----------- | -------------- | ------------------------------------------------------ |
 | $HOME      | 100 GB | /home/$USER | Yes            | Solid-state filesystem, shared to all worker nodes     |
-| $DATA      | 10 TB  | /data/$USER | No             | CephFS filesystem, shared to all worker nodes          |
+| $DATA      | 5 TB  | /data/$USER | No             | CephFS filesystem, shared to all worker nodes          |
 | $SCRATCH   | n/a    | /scratch    | No             | Ephemeral storage for workloads, local to worker nodes |
 
 <!-- here need to describe which ones are used for what eg. for jobs submission, from jupyter notebook, etc. -->
