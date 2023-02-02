@@ -12,11 +12,12 @@ A user can request 0 to 7 GPU instances as a resource for the notebook. A user c
 
 ## Selecting a Docker image
 
-Users can choose from five images: 
-* ml_platform:latest -  has most of the ML packages (Tensorflow, Keras, ScikitLearn,...) preinstalled, and a small tutorial with example codes in /ML_platform_tests/tutorial, it supports NVidia GPUs and has ROOT preinstalled.
-* ml_platform:conda - comes with full anaconda.
-* ml_platform:julia - with Julia programming languge
-* ml_platform:lava - with Intel Lava neuromorphic computing framework
-* ml_platform:centos7-experimental
+Users can choose from five images:
+
+* `ml_platform:latest` -  has most of the ML packages (Tensorflow, Keras, ScikitLearn,...) preinstalled, and a small tutorial with example codes in /ML_platform_tests/tutorial, it supports NVidia GPUs and has ROOT preinstalled.
+* `ml_platform:conda` - comes with full anaconda.
+* `ml_platform:julia` - with Julia programming languge
+* `ml_platform:lava` - with Intel Lava neuromorphic computing framework
+* `ml_platform:centos7-experimental`
 
 For software additions and upgrades please contact ivukotic@uchicago.edu.
