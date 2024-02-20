@@ -4,7 +4,7 @@
 
 First you will need to sign up on the [Analysis Facility website](https://af.uchicago.edu). 
 
-Please use your institutional or CERN identity (lxplus username) when signing up, as this will make the approval process smoother.
+Please use your institutional or CERN identity (lxplus username) when signing up, as this will make the approval process smoother. You should set your institution to be your home institute. If e.g. you are from the University of Chicago but use your CERN credentials, you should set the institution under your profile to be the University of Chicago.
 
 As part of signing up you will need to upload an SSH Public Key.
 
