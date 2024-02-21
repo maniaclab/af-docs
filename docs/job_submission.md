@@ -25,7 +25,7 @@ Submit file, called myjob.sub:
 
     Queue 1
 
-By defualt, your jobs will be submitted via the long queue, with no time limits. However, in order to make your jobs start faster, you can request specifically to send them via the short queue. This is for jobs that should take under 4 hours. For this purpose, you need to add a line in your submit file:
+By default, your jobs will be submitted via the long queue, with no time limits. However, in order to make your jobs start faster, you can request specifically to send them via the short queue. This is for jobs that should take under 4 hours. For this purpose, you need to add a line in your submit file:
 
     +queue="short"
 
