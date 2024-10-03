@@ -64,7 +64,7 @@ You will want to generate the proxy on, or copy it to, the shared $HOME filesyst
     x509userproxy = /home/YOURUSERNAME/x509proxy
 
 E.g., in the job above for the user lincolnb:
-    
+
     Universe = vanilla
 
     Output = myjob.$(Cluster).$(Process).out
@@ -80,6 +80,10 @@ E.g., in the job above for the user lincolnb:
     request_cpus = 1
 
     Queue 1
+
+## Limits
+
+Currently there is a limit to max of 64GB RAM and max 16 cores/CPUs that you can request per job.
 
 ## Using Analysis Facility Filesystems
 
@@ -129,6 +133,7 @@ And then:
     1 job(s) submitted to cluster 17.
 
 ## Using Docker / Singularity containers (Advanced)
+
 Some users may want to bring their own container-based workloads to the Analysis Facility. We support both Docker-based jobs as well as Singularity-based jobs. Additionally, the CVMFS repository unpacked.cern.ch is mounted on all nodes.
 
 If, for whatever reason, you wanted to run a Debian Linux-based container on the Analysis Facilty, it would be as simple as the following Job file:
