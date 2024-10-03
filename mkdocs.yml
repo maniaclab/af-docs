@@ -9,4 +9,6 @@ nav:
   - "Coffea Casa": "coffeacasa.md"
   - "ServiceX": "servicex.md"
   - "ML platform": "ml_platform.md"
-  - "XCache": "xcache.md"
+  - "Accessing data":
+      - "Local DDM": "local_ddm.md"
+      - "XCache": "xcache.md"
