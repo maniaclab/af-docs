@@ -10,6 +10,6 @@ nav:
   - "ServiceX": "servicex.md"
   - "ML platform": "ml_platform.md"
   - "Accessing data":
-      - "Local DDM": "local_ddm.md"
+      - "Local DDM": "local-ddm.md"
       - "XCache": "xcache.md"
 
